@@ -1,0 +1,52 @@
+# ===========================
+# Node.js / Express Backend
+# ===========================
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+
+# Railway / Deployment Artifacts
+.project
+.railway/
+
+# npm cache
+package-lock.json
+
+# Optional — if you use PM2
+.pmx/
+
+# Optional — if using sqlite locally
+*.sqlite
+*.sqlite-journal
